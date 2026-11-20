@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Надя Тітова">
+    <meta name="description" content="Асортимент та ціни пекарні MINOU">
+    <title>Асортимент і ціни — MINOU</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>MINOU</h1>
+        <p>Солодка історія починається тут</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="company.html">Про компанію</a>
+        <a href="author.html">Автор</a>
+        <a href="news.html">Новини</a>
+        <a href="lists.html">Списки</a>
+        <a href="menu.html">Меню</a>
+        <a href="tables.html">Асортимент</a>
+    </nav>
+
+    <main>
+        <h2>Асортимент нашої пекарні</h2>
+        <p>
+            У пекарні MINOU ви знайдете свіжу випічку,
+            ароматні круасани та ніжні десерти.
+            Ми використовуємо якісні інгредієнти
+            та готуємо кожен виріб із любов'ю.
+        </p>
+
+        <!-- Перша таблиця: асортимент продукції -->
+        <table class="product-table" id="products"
+               rules="all" cellspacing="0"
+               style="width: 100%;">
+
+            <caption id="product-caption" title="Асортимент продукції MINOU">
+                Асортимент і ціни продукції MINOU
+            </caption>
+
+            <colgroup>
+                <col dir="ltr" width="8%">
+                <col dir="ltr" width="32%">
+                <col dir="ltr" width="20%">
+                <col dir="ltr" width="20%">
+                <col dir="ltr" width="20%">
+            </colgroup>
+
+            <thead class="table-heading" charoff="0"
+                   style="background-color: #E8B9BE;"
+                   dir="ltr" align="center">
+                <tr title="Заголовки таблиці" align="center"
+                    char="," bgcolor="#E8B9BE">
+                    <th scope="col" abbr="Номер" align="center">№</th>
+                    <th scope="col" abbr="Назва" align="center">Назва виробу</th>
+                    <th scope="col" abbr="Категорія" align="center">Категорія</th>
+                    <th scope="col" abbr="Вага" align="center">Вага</th>
+                    <th scope="col" abbr="Ціна" align="center">Ціна</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="table-cell" lang="uk" dir="ltr" align="center">1</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Круасан класичний</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Випічка</td>
+                    <td class="table-cell" lang="uk" dir="ltr" align="center">80 г</td>
+                    <td class="table-cell" lang="uk" dir="ltr" align="center">65 грн</td>
+                </tr>
+
+                <tr>
+                    <td class="table-cell" lang="uk" dir="ltr" align="center">2</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Круасан із шоколадом</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Випічка</td>
+                    <td class="table-cell" lang="uk" dir="ltr" align="center">100 г</td>
+                    <td class="table-cell" lang="uk" dir="ltr" align="center">85 грн</td>
+                </tr>
+
+                <tr>
+                    <td class="table-cell" lang="uk" dir="ltr" align="center">3</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Булочка з корицею</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Булочні вироби</td>
+                    <td class="table-cell" lang="uk" dir="ltr" align="center">120 г</td>
+                    <td class="table-cell" lang="uk" dir="ltr" align="center">75 грн</td>
+                </tr>
+
+                <tr>
+                    <td class="table-cell" lang="uk" dir="ltr" align="center">4</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Шоколадний мафін</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Десерти</td>
+                    <td class="table-cell" lang="uk" dir="ltr" align="center">110 г</td>
+                    <td class="table-cell" lang="uk" dir="ltr" align="center">70 грн</td>
+                </tr>
+
+                <tr>
+                    <td class="table-cell" lang="uk" dir="ltr" align="center">5</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Французький багет</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Хліб</td>
+                    <td class="table-cell" lang="uk" dir="ltr" align="center">250 г</td>
+                    <td class="table-cell" lang="uk" dir="ltr" align="center">90 грн</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4" class="table-cell" lang="uk" dir="ltr" align="right">
+                        Кількість товарів у каталозі:
+                    </td>
+                    <td class="table-cell" lang="uk" dir="ltr" align="center">
+                        5
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+        <!-- Друга таблиця: схема варіанта 16 -->
+        <h2>Структура таблиці за варіантом 16</h2>
+
+        <table class="variant-table" id="variant16"
+               rules="all" cellspacing="0"
+               style="width: 100%;">
+
+            <caption id="variant-caption" title="Таблиця за варіантом 16">
+                Таблиця асортименту та умов продажу
+            </caption>
+
+            <colgroup>
+                <col dir="ltr" width="5%">
+                <col dir="ltr" width="14%">
+                <col dir="ltr" width="14%">
+                <col dir="ltr" width="5%">
+                <col dir="ltr" width="20%">
+                <col dir="ltr" width="8%">
+                <col dir="ltr" width="8%">
+                <col dir="ltr" width="8%">
+                <col dir="ltr" width="18%">
+            </colgroup>
+
+            <thead class="table-heading" charoff="0"
+                   style="background-color: #E8B9BE;"
+                   dir="ltr" align="center">
+
+                <tr title="Перший рядок" align="center" char="," bgcolor="#E8B9BE">
+                    <th rowspan="3" scope="col" abbr="№">№</th>
+                    <th colspan="2" scope="colgroup" abbr="Виріб">Виріб</th>
+                    <th rowspan="13" scope="col" abbr="Група"></th>
+                    <th rowspan="13" scope="col" abbr="Опис">Опис</th>
+                    <th colspan="4" scope="colgroup" abbr="Вартість">Вартість</th>
+                </tr>
+
+                <tr title="Другий рядок" align="center" char="," bgcolor="#E8B9BE">
+                    <th rowspan="2" scope="col">Назва</th>
+                    <th rowspan="2" scope="col">Тип</th>
+                    <th rowspan="2" scope="col">Ціна</th>
+                    <th colspan="3" scope="colgroup">Замовлення</th>
+                </tr>
+
+                <tr title="Третій рядок" align="center" char="," bgcolor="#E8B9BE">
+                    <th>Мале</th>
+                    <th>Середнє</th>
+                    <th>Велике</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr title="Четвертий рядок">
+                    <td rowspan="3" class="table-cell" lang="uk" dir="ltr" align="center">1</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Круасан</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Випічка</td>
+                    <td class="table-cell" lang="uk" dir="ltr">65 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">65 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">120 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">180 грн</td>
+                </tr>
+
+                <tr title="П'ятий рядок">
+                    <td class="table-cell" lang="uk" dir="ltr">Булочка</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Солодке</td>
+                    <td class="table-cell" lang="uk" dir="ltr">75 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">75 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">140 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">210 грн</td>
+                </tr>
+
+                <tr title="Шостий рядок">
+                    <td class="table-cell" lang="uk" dir="ltr">Багет</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Хліб</td>
+                    <td class="table-cell" lang="uk" dir="ltr">90 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">90 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">170 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">250 грн</td>
+                </tr>
+
+                <tr title="Сьомий рядок">
+                    <td rowspan="3" class="table-cell" lang="uk" dir="ltr" align="center">2</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Мафін</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Десерт</td>
+                    <td class="table-cell" lang="uk" dir="ltr">70 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">70 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">130 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">190 грн</td>
+                </tr>
+
+                <tr title="Восьмий рядок">
+                    <td class="table-cell" lang="uk" dir="ltr">Печиво</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Десерт</td>
+                    <td class="table-cell" lang="uk" dir="ltr">45 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">45 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">80 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">120 грн</td>
+                </tr>
+
+                <tr title="Дев'ятий рядок">
+                    <td class="table-cell" lang="uk" dir="ltr">Тарт</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Десерт</td>
+                    <td class="table-cell" lang="uk" dir="ltr">110 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">110 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">200 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">300 грн</td>
+                </tr>
+
+                <tr title="Десятий рядок">
+                    <td rowspan="3" class="table-cell" lang="uk" dir="ltr" align="center">3</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Торт</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Святковий</td>
+                    <td class="table-cell" lang="uk" dir="ltr">450 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">450 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">850 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">1200 грн</td>
+                </tr>
+
+                <tr title="Одинадцятий рядок">
+                    <td class="table-cell" lang="uk" dir="ltr">Чізкейк</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Святковий</td>
+                    <td class="table-cell" lang="uk" dir="ltr">390 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">390 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">740 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">1100 грн</td>
+                </tr>
+
+                <tr title="Дванадцятий рядок">
+                    <td class="table-cell" lang="uk" dir="ltr">Медівник</td>
+                    <td class="table-cell" lang="uk" dir="ltr">Святковий</td>
+                    <td class="table-cell" lang="uk" dir="ltr">420 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">420 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">790 грн</td>
+                    <td class="table-cell" lang="uk" dir="ltr">1150 грн</td>
+                </tr>
+
+                <tr title="Тринадцятий рядок">
+                    <td colspan="2" class="table-cell" lang="uk" dir="ltr" align="center">
+                        Разом
+                    </td>
+                    <td class="table-cell" lang="uk" dir="ltr">9 виробів</td>
+                    <td class="table-cell" lang="uk" dir="ltr">—</td>
+                    <td colspan="3" class="table-cell" lang="uk" dir="ltr" align="center">
+                        MINOU Bakery
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </main>
+
+    <footer>
+        <p>© 2026 MINOU Bakery</p>
+    </footer>
+
+</body>
+</html>
